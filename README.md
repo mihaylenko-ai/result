@@ -877,7 +877,7 @@ interface Vxlan1
    vxlan vrf VRF2 vni 222222
    vxlan learn-restrict any
 !
-ip virtual-router mac-address aa:22:00:00:00:00
+ip virtual-router mac-address aa:11:00:00:00:00
 !
 ip routing
 ip routing vrf MGMT
@@ -1049,7 +1049,7 @@ interface Vxlan1
    vxlan vrf VRF2 vni 222222
    vxlan learn-restrict any
 !
-ip virtual-router mac-address aa:22:00:00:00:00
+ip virtual-router mac-address aa:11:00:00:00:00
 !
 ip routing
 ip routing vrf MGMT
@@ -1207,7 +1207,7 @@ interface Vxlan1
    vxlan vrf VRF2 vni 222222
    vxlan learn-restrict any
 !
-ip virtual-router mac-address aa:22:00:00:00:00
+ip virtual-router mac-address aa:11:00:00:00:00
 !
 ip routing
 ip routing vrf VRF1
